@@ -5,7 +5,8 @@ import json
 
 from BlockChain import Blockchain
 
-INITIAL_BITS = 0x1d777777
+#ここを0x1d777777に変更する
+INITIAL_BITS = 0x1e777777
 
 if __name__ == "__main__":
     bc = Blockchain(INITIAL_BITS)
